@@ -19,8 +19,8 @@
             </ul>
 
             <ul class="nav navbar-btn navbar-right">
-                <button id="signin_btn" data-toggle="modal" href="javascript:void(0)" onclick="openLoginModal();"
-                        class="btn btn-default"><a>Sign In</a></button>
+                <button id="signin_btn"
+                        class="btn btn-default"><a href="login.php">Sign In</a></button>
 
             </ul>
         </div><!-- /.navbar-collapse -->

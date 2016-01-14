@@ -109,11 +109,6 @@
         </div>
     </div>
 
-    
-
-
-
-
 
 <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' t0..ype='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Nunito:400,300,700' rel='stylesheet' type='text/css'>
