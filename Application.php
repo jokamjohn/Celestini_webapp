@@ -8,6 +8,12 @@
 
 require 'vendor/autoload.php';
 
+use app\data\ClientContactInformation;
+use app\data\HealthCheckQuestion;
 use Parse\ParseClient;
 
-ParseClient::initialize('YopCnH0gzna3rUdKXfl2BCKxeTNIhmrGRuWTDqIv','vlGf3qYZ61a0gKbDViFLlcCRCGGAtISiaw11s333','Wt9mOPnJZ72gDg3VbtANOSP089HEvB8kyP4DzcSU');
+//Register the classes here
+ClientContactInformation::registerSubclass();
+HealthCheckQuestion::registerSubclass();
+
+ParseClient::initialize('psgc5CNy7Ig1NBmLPpnzD4Xux2ENTrKrdQwVyyEc', 'O8cvWjsVWg14LjOiZSkvESaYmZfw9GnrerRaGhSO', 'vdgXHNHxVydqWsO53jBNgBxPz1Mt9cc2I2OTF5Z1');

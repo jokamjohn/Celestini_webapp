@@ -1,0 +1,523 @@
+@charset "UTF-8";
+
+#homepage_carousel{
+    margin-top: 0;
+    height: 100%;
+    width: auto;
+}
+
+.heading{
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 2.5em;
+}
+
+#home_nav{
+    margin-bottom: 0px;
+}
+
+.carousel-inner{
+    width:100%;
+    max-height: 580px !important;
+}
+
+#footer{
+    background-color: #2196F3;
+    margin-top: 10px;
+    border-top: solid 2px #E0F2F1;
+}
+
+.vector-background{
+    background-color: #BBDEFB;
+
+}
+
+
+
+#signin_btn{
+    color: transparent;
+    border: #E0F2F1;
+}
+
+#signin_btn > a{
+    font-size: 1.5em;
+    font-family: 'Nunito', sans-serif;
+}
+
+#partners{
+    background-color: #EEEEEE;
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+
+.navbar-default {
+    background-color: #2196F3;
+    border-color: transparent;
+    border-radius: 0px;
+    padding: 15px;
+}
+/* title */
+.navbar-default .navbar-brand {
+    color: #E0F2F1;
+    font-family: 'Pacifico', 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 2.5em;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #B2DFDB;
+}
+/* link */
+.navbar-default .navbar-nav > li > a {
+    color: #777;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #E0F2F1;
+    text-underline: none;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #555;
+    background-color: #E7E7E7;
+}
+
+.nav .navbar-btn .navbar-right > .btn .btn-default > a:hover{
+    text-underline: none;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: #D5D5D5;
+}
+/* caret */
+.navbar-default .navbar-nav > .dropdown > a .caret {
+    border-top-color: #777;
+    border-bottom-color: #777;
+}
+.navbar-default .navbar-nav > .dropdown > a:hover .caret,
+.navbar-default .navbar-nav > .dropdown > a:focus .caret {
+    border-top-color: #333;
+    border-bottom-color: #333;
+}
+.navbar-default .navbar-nav > .open > a .caret,
+.navbar-default .navbar-nav > .open > a:hover .caret,
+.navbar-default .navbar-nav > .open > a:focus .caret {
+    border-top-color: #555;
+    border-bottom-color: #555;
+}
+/* mobile version */
+.navbar-default .navbar-toggle {
+    border-color: #DDD;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #DDD;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #CCC;
+}
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #777;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #333;
+    }
+}
+
+
+
+
+.animated {
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.animated.hinges {
+    -webkit-animation-duration: 2s;
+    -moz-animation-duration: 2s;
+    -o-animation-duration: 2s;
+    animation-duration: 2s;
+}
+
+.animated.slow {
+    -webkit-animation-duration: 3s;
+    -moz-animation-duration: 3s;
+    -o-animation-duration: 3s;
+    animation-duration: 3s;
+}
+
+.animated.snail {
+    -webkit-animation-duration: 4s;
+    -moz-animation-duration: 4s;
+    -o-animation-duration: 4s;
+    animation-duration: 4s;
+}
+
+@-webkit-keyframes shake {
+    0%, 100% {-webkit-transform: translateX(0);}
+    10%, 30%, 50%, 70%, 90% {-webkit-transform: translateX(-10px);}
+    20%, 40%, 60%, 80% {-webkit-transform: translateX(10px);}
+}
+
+@-moz-keyframes shake {
+    0%, 100% {-moz-transform: translateX(0);}
+    10%, 30%, 50%, 70%, 90% {-moz-transform: translateX(-10px);}
+    20%, 40%, 60%, 80% {-moz-transform: translateX(10px);}
+}
+
+@-o-keyframes shake {
+    0%, 100% {-o-transform: translateX(0);}
+    10%, 30%, 50%, 70%, 90% {-o-transform: translateX(-10px);}
+    20%, 40%, 60%, 80% {-o-transform: translateX(10px);}
+}
+
+@keyframes shake {
+    0%, 100% {transform: translateX(0);}
+    10%, 30%, 50%, 70%, 90% {transform: translateX(-10px);}
+    20%, 40%, 60%, 80% {transform: translateX(10px);}
+}
+
+.shake {
+    -webkit-animation-name: shake;
+    -moz-animation-name: shake;
+    -o-animation-name: shake;
+    animation-name: shake;
+}
+
+.login .modal-dialog{
+    width: 350px;
+}
+.login .modal-footer{
+    border-top: 0;
+    margin-top: 0px;
+    padding: 10px 20px 20px;
+}
+.login .modal-header {
+    border: 0 none;
+    padding: 15px 15px 15px;
+    /*     padding: 11px 15px; */
+}
+.login .modal-body{
+    /*     background-color: #eeeeee; */
+}
+.login .division {
+    float: none;
+    margin: 0 auto 18px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+.login .division .line {
+    border-top: 1px solid #DFDFDF;
+    position: absolute;
+    top: 10px;
+    width: 34%;
+}
+.login .division .line.l {
+    left: 0;
+}
+.login .division .line.r {
+    right: 0;
+}
+.login .division span {
+    color: #424242;
+    font-size: 17px;
+}
+.login .box .social {
+    float: none;
+    margin: 0 auto 30px;
+    text-align: center;
+}
+
+.login .social .circle{
+    background-color: #EEEEEE;
+    color: #FFFFFF;
+    border-radius: 100px;
+    display: inline-block;
+    margin: 0 17px;
+    padding: 15px;
+}
+.login .social .circle .fa{
+    font-size: 16px;
+}
+.login .social .facebook{
+    background-color: #455CA8;
+    color: #FFFFFF;
+}
+.login .social .google{
+    background-color: #F74933;
+}
+.login .social .github{
+    background-color: #403A3A;
+}
+.login .facebook:hover{
+    background-color: #6E83CD;
+}
+.login .google:hover{
+    background-color: #FF7566;
+}
+.login .github:hover{
+    background-color: #4D4D4d;;
+}
+.login .forgot {
+    color: #797979;
+    margin-left: 0;
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+}
+.login .btn-login, .registerBox .btn-register{
+    background-color: #00BBFF;
+    border-color: #00BBFF;
+    border-width: 0;
+    color: #FFFFFF;
+    display: block;
+    margin: 0 auto;
+    padding: 15px 50px;
+    text-transform: uppercase;
+    width: 100%;
+}
+.login .btn-login:hover, .registerBox .btn-register:hover{
+    background-color: #00A4E4;
+    color: #FFFFFF;
+}
+.login .form-control{
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.09);
+    box-shadow: 0 1px 0px 0px rgba(0, 0, 0, 0.09) inset;
+    color: #FFFFFF;
+}
+.login .form-control:hover{
+    background-color: rgba(0,0,0,.16);
+}
+.login .form-control:focus{
+    box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.04) inset;
+    background-color: rgba(0,0,0,0.23);
+    color: #FFFFFF;
+}
+.login .box .form input[type="text"], .login .box .form input[type="password"] {
+    border-radius: 3px;
+    border: none;
+    color: #333333;
+    font-size: 16px;
+    height: 46px;
+    margin-bottom: 5px;
+    padding: 13px 12px;
+    width: 100%;
+}
+
+
+@media (max-width:400px){
+    .login .modal-dialog{
+        width: 100%;
+    }
+}
+
+.big-login, .big-register{
+    background-color: #00bbff;
+    color: #FFFFFF;
+    border-radius: 7px;
+    border-width: 2px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 200;
+    padding: 16px 60px;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+}
+.big-login:hover{
+    background-color: #00A4E4;
+    color: #FFFFFF;
+}
+.big-register{
+    background-color: rgba(0,0,0,.0);
+    color: #00bbff;
+    border-color: #00bbff;
+}
+.big-register:hover{
+    border-color: #00A4E4;
+    color:  #00A4E4;
+}
+
+@media only screen and (min-width : 1200px) {
+    .carousel-caption
+    {
+        top: 46%;
+    }
+}
+
+
+/* 01. GENERAL SETTINGS ============================================ */
+
+#team_body * {margin: auto; padding: 0;}
+
+#team_body p {line-height: 160%;}
+
+#team_body a {text-decoration: none; color: #fff; transition: all 0.1s ease-in;}
+#team_body img {border: 0;}
+
+#team_body body {
+    background: #fff;
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+#team_body .clear {clear: both;}
+
+/* Buttons */
+#team_body .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 40px;
+    color: rgba(255,255,255, 0.95);
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 20px;
+    outline: 0;
+    transition: all 0.1s ease-in;
+}
+
+#team_body .btn-transparent {background: rgba(0,0,0, 0.2);}
+#team_body .btn-transparent:hover {background: rgba(0,0,0, 0.4);}
+
+/* Separators */
+#team_body .separator {
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.2);
+    width: 30px;
+    height: 5px;
+}
+
+/* 02. FONT FACE ============================================ */
+
+@font-face {
+    font-family: 'Nunito', SansSerif;
+    font-weight: normal;
+}
+
+/* 03. SPEAKERS SETTINGS ============================================ */
+
+#team {
+    padding: 60px 0;
+    background: #4593e3;
+    text-align: center;
+}
+
+#team p {
+    padding: 20px 0 60px;
+    color: rgba(255,255,255, 0.85);
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+}
+
+#team h3 {
+    padding: 0 0 15px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+#team h4  {
+    margin-top: -20px;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+#team h4 span {
+    display: block;
+    position: relative;
+    left: -40px;
+    top: 10px;
+    font-size: 20px;
+    background: none;
+    padding: 0;
+}
+
+#team img {
+    width: 100%;
+    max-width: 240px;
+    border-radius: 50%;
+    border: 15px solid transparent;
+    box-shadow: 2px 2px 0px rgba(0,0,0, 0.18);
+    transition: all 0.1s ease-in;
+}
+
+#team img:hover {
+    border: 15px solid #3980C9;
+    position: relative;
+    z-index: 10;
+    transition: all 0.1s ease-in;
+}
+
+#team span {
+    padding: 8px 20px;
+    position: relative;
+    top: -64px;
+    left: -42px;
+    display: inline-block;
+    background: #4593e3;
+    border-radius: 0 16px 16px 0;
+    font-size: 16px;
+}
+
+/* Member Image Hover Effect */
+.hover_img {
+    display: none
+}
+
+.member-profile:hover .unhover_img{
+    display: none;
+}
+
+.member-profile:hover .hover_img {
+    display: block;
+}
+
+/* Social Networks Meta */
+#team li {display: inline-block; padding: 0 6px; font-size: 18px;}
+#team li a {color: rgba(0,0,0, 0.3); transition: all 0.1s ease-in;}
+#team li a:hover {color: rgba(0,0,0, 0.7);}
+
+/* Rows Optimization */
+.row2 {
+    display: none;
+}
+
+.row1 .col-md-3, .row2 .col-md-3 {
+    padding-bottom: 40px;
+}
+
+/* Mobile Devices Optimization */
+@media (min-width: 568px) and (max-width: 992px) {
+
+    .row1 .col-md-3, .row2 .col-md-3 {
+        display: inline-block;
+        max-width: 50%;
+    }
+
+    #team img {max-width: 300px;}
+
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}

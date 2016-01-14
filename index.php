@@ -8,8 +8,13 @@
 
 require 'vendor/autoload.php';
 
-use Parse\ParseObject;
+//$query = new \Parse\ParseQuery(\app\Constant::$CLIENT_CONTACT_INFO_CLASS_NAME);
+//$query->includeKey(\app\Constant::$KEY_HEALTH_CHECK_INFORMATION);
+//$results = $query->find();
 
-$testObject = ParseObject::create("TestObject");
-$testObject->set("foo", "bar");
-$testObject->save();
+//var_dump($results);
+
+makeView("homepage");
+
+
+
